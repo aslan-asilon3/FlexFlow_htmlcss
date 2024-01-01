@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon-purple.png" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<style>
+.scrollable-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100%px; /* Set a maximum height to limit vertical scrolling height */
+}
+
+.payment-title-white{
+    color:white;
+}
+
+.payment-title-purple{
+    color:hsl(290, 72%, 55%);
+}
+
+</style>
+
+    <title>Aradan Fitness</title>
+</head>
+
+<body style="background-color:hsl(290, 72%, 55%);">
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main" >
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color:hsl(290, 72%, 55%);">Aradan Fitness</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+        <!--==================== HOME ====================-->
+        <div class="container mt-4 p-0" style="background-color:hsl(290, 97%, 77%);">
+            <div class="row px-md-4 px-2 pt-4">
+                <div class="col-lg-8">
+                <div class="btn payment-title-white ">Back</div>
+                    <div class="card">
+                        <div class="ribbon ribbon-top-right " ><span>SALE TIME!</span></div>
+                        <div>
+                            <div class="table-responsive px-md-4 px-2 pt-3 scrollable-container">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column justify-content">
+                                                        <p class="fw-bold">Air<span class="ps-1">Red</span><span class="ps-1">Pants</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class=" fw-bold">Red/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class=" fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column justify-content">
+                                                        <p class="fw-bold">Air<span class="ps-1">Red</span><span class="ps-1">Pants</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class=" fw-bold">Red/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class=" fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column justify-content">
+                                                        <p class="fw-bold">Air<span class="ps-1">Red</span><span class="ps-1">Pants</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class=" fw-bold">Red/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class=" fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column justify-content">
+                                                        <p class="fw-bold">Air<span class="ps-1">Red</span><span class="ps-1">Pants</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class=" fw-bold">Red/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class=" fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column justify-content">
+                                                        <p class="fw-bold">Air<span class="ps-1">Red</span><span class="ps-1">Pants</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class=" fw-bold">Red/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class=" fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="border-bottom">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column">
+                                                        <p class="fw-bold">Court<span class="ps-1">Dri-FIT</span></p> <small class=" d-flex"> <span class=" text-muted">Color:</span> <span class="fw-bold">Dark Blue</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class="fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img class="pic" src="https://images.pexels.com/photos/7322083/pexels-photo-7322083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""> </div>
+                                                    <div class="ps-3 d-flex flex-column">
+                                                        <p class="fw-bold"> Sportswear<span class="ps-1">Heritage</span><span class="ps-1">Windrunner</span></p> <small class=""> <span class=" text-muted">Color:</span> <span class="fw-bold">Blue/White</span> </small> <small class=""> <span class=" text-muted">Size:</span> <span class="fw-bold">L</span> </small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <p class="pe-3"><span class="red">Rp 45k</span></p>
+                                                    <p class="text-muted text-decoration-line-through">Rp 80k</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex align-items-center"> <span class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input class="ps-2" type="number" value="2"></span>
+                                                    <div class="round"> <span class=""> L </span> </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 payment-summary">
+                    <p class="fw-bold pt-lg-0 pt-4 pb-2 payment-title-white" >Payment Summary</p>
+                    <div class="card px-md-3 px-2 pt-4">
+                        <div class="unregistered mb-4"> <span class="py-1">unregistered account</span> </div>
+                        <div class="d-flex justify-content-between pb-3"> <small class="text-muted">Transaction code</small>
+                            <p class="">VC115665</p>
+                        </div>
+                        <div class="d-flex justify-content-between b-bottom"> <input type="text" class="ps-2" placeholder="COUPON CODE">
+                            <div class="btn " style="background-color:hsl(290, 72%, 55%);color:white;">Apply</div>
+                        </div>
+                        <div class="d-flex flex-column b-bottom">
+                            <div class="d-flex justify-content-between py-3"> <small class="text-muted">Order Summary</small>
+                                <p>$122</p>
+                            </div>
+                            <div class="d-flex justify-content-between pb-3"> <small class="text-muted">Additional Service</small>
+                                <p>$22</p>
+                            </div>
+                            <div class="d-flex justify-content-between"> <small class="text-muted">Total Amount</small>
+                                <p>$132</p>
+                            </div>
+                        </div>
+                        <div class="sale my-3"> <span>sale<span class="px-1">expiring</span><span>in</span>:</span><span class="red">21<span class="ps-1">hours</span>,31<span class="ps-1 ">minutes</span></span> </div>
+
+                            <div class="btn " style="background-color:hsl(290, 72%, 55%);color:white;">Pay</div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 delivery px-md-3 px-1">
+                    <p class="pt-4 fw-bold pb-3 ps-2 payment-title-white">Delivery</p>
+
+                    <div class="d-md-flex justify-content-between align-items-center pb-4">
+                        
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="del" src="assets/img/ekspedisi/wahana.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Wahana <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex ">
+                                            <img class="del" src="assets/img/ekspedisi/sicepat.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Tiki <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="d-md-flex justify-content-between align-items-center pb-4">
+                        
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="del" src="assets/img/ekspedisi/sicepat.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Sicepat <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex ">
+                                            <img class="del" src="assets/img/ekspedisi/pos-indonesia.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Pos Indonesia <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="d-md-flex justify-content-between align-items-center pb-4">
+                        
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="del" src="assets/img/ekspedisi/pandu-logistik.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Pandu Logistik <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex ">
+                                            <img class="del" src="assets/img/ekspedisi/pahala-express.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Pahala Express <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="d-md-flex justify-content-between align-items-center pb-4">
+                        
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="del" src="assets/img/ekspedisi/jne-express.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">JNE Express <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex ">
+                                            <img class="del" src="assets/img/ekspedisi/j&t-express.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">J&T Express <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="d-md-flex justify-content-between align-items-center pb-4">
+                        
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="del" src="assets/img/ekspedisi/indah-logistik.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">Indah Logistik <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="size d-flex ps-4 scrollable-container">
+                            <label class="option d-flex align-items-center">
+                                <input type="radio" name="radio-group-1">
+                                <div class="card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex ">
+                                            <img class="del" src="assets/img/ekspedisi/first-logistik.png" style="width: 100%; height: auto;" alt="">
+                                        </div>
+                                        <div class="d-flex flex-column px-3">
+                                            <p class="fw-bold pb-1">First Logistik <span>Deliveries</span></p>
+                                            <small class="text-muted pb-1">Expected<span class="ps-1">delivery:</span></small>
+                                            <small class="text-muted pb-1">Friday:28</small>
+                                        </div>
+                                        <p class="fw-bold">Rp 10k</p>
+                                    </div>
+                                </div>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="pt-4 fw-bold pb-3 payment-title-white">Additional Service</p>
+                    <div class="card p-3 mb-2">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <p class="fw-bold">Care + package</p> <small class="text-muted">One year of additional Care</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <p class="pe-3">Rp10k</p>
+                                <div class="form-check form-switch"> <input class="form-check-input" type="checkbox" id="SwitchCheck"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 mb-2">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <p class="fw-bold">Environment Friendly</p> <small class="text-muted">Add some tip for earth care</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <p class="pe-3">$2.00</p>
+                                <div class="form-check form-switch"> <input class="form-check-input" type="checkbox" id="SwitchCheck"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 mb-2">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <p class="fw-bold">Golden Guard</p> <small class="text-muted">30 days more for return</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <p class="pe-3">$5.00</p>
+                                <div class="form-check form-switch"> <input class="form-check-input" type="checkbox" id="SwitchCheck"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+</body>
+
+</html>
